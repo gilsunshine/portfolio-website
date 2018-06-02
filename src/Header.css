@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  width: 90%;
+}
+
+.HeaderItem {
+    display: inline;
+}
+
+.HeaderItem:hover {
+    text-decoration: line-through;
+}
+
+.MyName {
+  display: inline;
+}
+
+.MyName:hover {
+    color: blue;
+    text-decoration: line-through;
+}

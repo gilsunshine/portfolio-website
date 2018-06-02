@@ -1,0 +1,22 @@
+.Backwards img{
+  transition: 0.2s;
+  position: fixed;
+  top: 50%;
+  opacity: 0.2;
+}
+
+.Backwards img:hover{
+  opacity: 1.0;
+}
+
+.Forwards img{
+  transition: 0.2s;
+  position: fixed;
+  top: 50%;
+  right: 5%;
+  opacity: 0.2;
+}
+
+.Forwards img:hover{
+  opacity: 1.0;
+}
