@@ -72,70 +72,73 @@
   }
 }
 
-.About {
-  font-family: 'Merriweather', serif;
-  font-size: 4vw;
-  padding: 2%;
-  background-color: #ddd;
-  width: 80%;
-  position: fixed;
-  top: 25%;
-  left: 10%;
-}
+@media only screen and (max-width: 767px) {
 
-.AboutText {
-  padding-left: 5%;
-  padding-right: 5%;
-}
+  .About {
+    font-family: 'Merriweather', serif;
+    font-size: 4vw;
+    padding: 2%;
+    background-color: #ddd;
+    width: 80%;
+    position: fixed;
+    top: 15%;
+    left: 10%;
+  }
 
-.Close {
-  transition: 0.5s;
-  transform: rotate(45deg);
-  position: relative;
-  width: 5%;
-  left: 95%;
-  top: 0%;
-}
-
-.Close:active {
-  transition: 1s;
-  transform: rotate(225deg);
-}
-
-/* Style all font awesome icons */
-.fa {
-    transition: 0.5s;
+  .AboutText {
     padding-left: 5%;
-    padding-bottom: 5%;
-    padding-top: 2%;
-    font-size: 100%;
+    padding-right: 5%;
+  }
+
+  .Close {
+    transition: 0.5s;
+    transform: rotate(45deg);
+    position: relative;
     width: 5%;
-    text-align: center;
-    text-decoration: none;
-}
+    left: 95%;
+    top: 0%;
+  }
 
-/* Add a hover effect if you want */
-.fa:active {
-  transition: 0.5s;
-  opacity: 0.2;
-}
+  .Close:active {
+    transition: 1s;
+    transform: rotate(225deg);
+  }
 
-/* Set a specific color for each brand */
+  /* Style all font awesome icons */
+  .fa {
+      transition: 0.5s;
+      padding-left: 5%;
+      padding-bottom: 5%;
+      padding-top: 2%;
+      font-size: 100%;
+      width: 5%;
+      text-align: center;
+      text-decoration: none;
+  }
 
-/* email */
-.fa-envelope {
-    background: #ddd;
-    color: black;
-}
+  /* Add a hover effect if you want */
+  .fa:active {
+    transition: 0.5s;
+    opacity: 0.2;
+  }
 
-/* Facebook */
-.fa-instagram {
-    background: #ddd;
-    color: black;
-}
+  /* Set a specific color for each brand */
 
-/* Twitter */
-.fa-linkedin {
-    background: #ddd;
-    color: black;
+  /* email */
+  .fa-envelope {
+      background: #ddd;
+      color: black;
+  }
+
+  /* Facebook */
+  .fa-instagram {
+      background: #ddd;
+      color: black;
+  }
+
+  /* Twitter */
+  .fa-linkedin {
+      background: #ddd;
+      color: black;
+  }
 }
