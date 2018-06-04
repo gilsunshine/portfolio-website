@@ -1,5 +1,75 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
+@media only screen and (min-width: 768px) {
+  .About {
+    font-family: 'Merriweather', serif;
+    font-size: 2vw;
+    padding: 2%;
+    background-color: #ddd;
+    width: 50%;
+    position: fixed;
+    top: 25%;
+    left: 23%;
+  }
+
+  .AboutText {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .Close {
+    transition: 0.5s;
+    transform: rotate(45deg);
+    position: relative;
+    width: 5%;
+    left: 95%;
+    top: 0%;
+  }
+
+  .Close:hover {
+    transition: 1s;
+    transform: rotate(225deg);
+  }
+
+  /* Style all font awesome icons */
+  .fa {
+      transition: 0.5s;
+      padding-left: 5%;
+      padding-bottom: 5%;
+      padding-top: 2%;
+      font-size: 100%;
+      width: 90%;
+      text-align: center;
+      text-decoration: none;
+  }
+
+  /* Add a hover effect if you want */
+  .fa:hover {
+    transition: 0.5s;
+    opacity: 0.2;
+  }
+
+  /* Set a specific color for each brand */
+
+  /* email */
+  .fa-envelope {
+      background: #ddd;
+      color: black;
+  }
+
+  /* Facebook */
+  .fa-instagram {
+      background: #ddd;
+      color: black;
+  }
+
+  /* Twitter */
+  .fa-linkedin {
+      background: #ddd;
+      color: black;
+  }
+}
+
 .About {
   font-family: 'Merriweather', serif;
   font-size: 2vw;
