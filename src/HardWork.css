@@ -3,16 +3,9 @@
 .HardWork {
   font-family: 'Merriweather', serif;
   font-size: 30px;
-  background-color: #fff;
+  background-color: rgba(0,0,0,0.0);
   width: 86%;
   position: absolute;
   top: 20%;
   left: 5%;
-}
-
-.CarouselContainer {
-  margin-left: 25%;
-  margin-right: 25%;
-  width: 50%;
-  height: 50%;
 }

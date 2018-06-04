@@ -17,13 +17,13 @@ class S27 extends Component {
     return (
       <div className={this.props.activeProject === 0 ? "ActiveProject" : "Project"} onMouseEnter={()=>{this.props.activateProject(0)}}>
         <div className="Slideshow">
-          <img className="Slide"
+          <img className="shadow" className="Slide"
           src={require(`../files/images/Sculpture27/${this.props.s27Slide.toString()}.png`)}
           />
         </div>
 
         <p className="ProjectTitle">Sculpture 27</p>
-        {this.state.showAbout ? <p className="ProjectAbout" onClick={this.toggleAbout}>Hide About</p> : <p className="ProjectAbout" onClick={this.toggleAbout}>About</p>}
+        {this.state.showAbout ? <p className="ProjectAbout" onClick={this.toggleAbout}>Hide Info</p> : <p className="ProjectAbout" onClick={this.toggleAbout}>Show Info</p>}
 
         {this.state.showAbout ?
           <p className="ProjectDescription">

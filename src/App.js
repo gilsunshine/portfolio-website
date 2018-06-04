@@ -18,7 +18,9 @@ class App extends Component {
       s27Slide: 0,
       nordstromss16Slide: 0,
       currentHardWork: 0,
-      color: 'rgba(0,0,0,0)'
+      backgroundColor: "white",
+      blue: 0,
+      red: 0,
     }
   }
 
@@ -55,11 +57,20 @@ class App extends Component {
       hardWork: false,
       softWork: false,
       allWork: false,
-      about: false
     })
   }
 
   backwardHandler = () => {
+    if (!this.state.hardWork && !this.state.softWork && !this.state.allWork){
+      if (this.state.backgroundColor === "yellow"){
+        document.body.style.background = "rgba(0,0,0,0.0)";
+        this.setState({backgroundColor: "white"})
+      } else {
+        document.body.style.background = "red";
+        this.setState({backgroundColor: "red"})
+
+      }
+    }
     if (this.state.hardWork){
       if (this.state.activeProject === 0 && this.state.s27Slide > 0){
         this.setState({s27Slide: this.state.s27Slide - 1})
@@ -69,11 +80,23 @@ class App extends Component {
     }
   }
 
+
+
   forwardHandler = () => {
+    if (!this.state.hardWork && !this.state.softWork && !this.state.allWork){
+      if (this.state.backgroundColor === "red"){
+        document.body.style.background = "rgba(0,0,0,0.0)";
+        this.setState({backgroundColor: "white"})
+      } else {
+        document.body.style.background = "yellow";
+        this.setState({backgroundColor: "yellow"})
+
+      }
+    }
     if (this.state.hardWork){
       if (this.state.activeProject === 0 && this.state.s27Slide < 4){
         this.setState({s27Slide: this.state.s27Slide + 1})
-      } else if (this.state.activeProject === 1 && this.state.nordstromss16Slide < 4){
+      } else if (this.state.activeProject === 1 && this.state.nordstromss16Slide < 5){
         this.setState({nordstromss16Slide: this.state.nordstromss16Slide + 1})
       }
     }

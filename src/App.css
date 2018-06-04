@@ -2,11 +2,13 @@
   transition: 0.2s;
   position: fixed;
   top: 50%;
-  opacity: 0.2;
+  opacity: 1.0;
+  width:7%;
 }
 
 .Backwards img:hover{
-  opacity: 1.0;
+  transition: 0.5s;
+  opacity: 0.3;
 }
 
 .Forwards img{
@@ -14,9 +16,11 @@
   position: fixed;
   top: 50%;
   right: 5%;
-  opacity: 0.2;
+  opacity: 1.0;
+  width:7%;
 }
 
 .Forwards img:hover{
-  opacity: 1.0;
+  transition: 0.5s;
+  opacity: 0.3;
 }

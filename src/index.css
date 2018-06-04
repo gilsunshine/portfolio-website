@@ -1,5 +1,8 @@
 body {
   margin: 0;
   margin-left: 5%;
-  background-color: #fff;
+  cursor: default;
+  background-color: rgba(0,0,0,0.0);
 }
+
+p::selection { background-color: orange; }

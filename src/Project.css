@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
 .Project {
+  transition: 0.2s;
   opacity: 0.2;
   margin: 2%;
 }
 
 .ActiveProject {
+  transition: 0.75s;
   opacity: 1;
   margin: 2%;
 }
@@ -16,11 +18,11 @@
 
 .ProjectTitle {
   font-style: oblique;
-  font-size: 20px;
+  font-size: 1.4vw;
 }
 
 .ProjectAbout {
-  font-size: 20px;
+  font-size: 1.4vw;
 }
 
 .ProjectDescription {
@@ -28,7 +30,7 @@
   margin-left: 25%;
   margin-right: 25%;
   font-family: 'Merriweather', serif;
-  font-size: 14px;
+  font-size: 1vw;
 }
 
 .Slideshow {

@@ -24,7 +24,7 @@ class NordstromSS16 extends Component {
         </div>
 
         <p className="ProjectTitle">Nordstrom SS16 </p>
-        {this.state.showAbout ? <p className="ProjectAbout" onClick={this.toggleAbout}>Hide About</p> : <p className="ProjectAbout" onClick={this.toggleAbout}>About</p>}
+        {this.state.showAbout ? <p className="ProjectAbout" onClick={this.toggleAbout}>Hide Info</p> : <p className="ProjectAbout" onClick={this.toggleAbout}>Show Info</p>}
 
         {this.state.showAbout ?
           <p className="ProjectDescription">

@@ -6,23 +6,52 @@
   position: fixed;
   z-index: 1;
   font-family: 'Merriweather', serif;
-  font-size: 30px;
-  width: 90%;
+  width: 85%;
+  padding-top: 5%;
 }
 
 .HeaderItem {
+    position: relative;
+    top: 10%;
+    padding-right: 30%;
     display: inline;
+    font-size: 2vw;
+}
+
+.HeaderAbout {
+  position: relative;
+  top: 10%;
+  display: inline;
+  font-size: 2vw;
+}
+
+.HeaderAbout:hover {
+    text-decoration: line-through;
 }
 
 .HeaderItem:hover {
     text-decoration: line-through;
 }
 
+.HeaderAbout:active {
+    text-decoration: line-through;
+}
+
+.HeaderItem:active {
+    text-decoration: line-through;
+}
+
 .MyName {
   display: inline;
+  font-size: 2vw;
 }
 
 .MyName:hover {
+    color: blue;
+    text-decoration: line-through;
+}
+
+.MyName:active {
     color: blue;
     text-decoration: line-through;
 }
