@@ -24,6 +24,10 @@ class App extends Component {
     }
   }
 
+  componentWillMount(){
+    document.addEventListener("touchstart", function(){}, true)
+  }
+
   toggleAbout = () => {
     this.setState({about: !this.state.about})
   }
