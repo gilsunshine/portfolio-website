@@ -6,12 +6,11 @@
   position: fixed;
   z-index: 1;
   font-family: 'Merriweather', serif;
-  width: 85%;
+  width: 90%;
   padding-top: 5%;
 }
 
 .HeaderItem {
-    position: relative;
     top: 10%;
     padding-right: 30%;
     display: inline;
@@ -19,7 +18,6 @@
 }
 
 .HeaderAbout {
-  position: relative;
   top: 10%;
   display: inline;
   font-size: 2vw;

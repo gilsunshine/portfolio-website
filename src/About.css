@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
+
 @media only screen and (min-width: 768px) {
+
   .About {
     font-family: 'Merriweather', serif;
     font-size: 2vw;
@@ -38,7 +40,7 @@
       padding-bottom: 5%;
       padding-top: 2%;
       font-size: 100%;
-      width: 90%;
+      width: 5%;
       text-align: center;
       text-decoration: none;
   }
@@ -72,13 +74,13 @@
 
 .About {
   font-family: 'Merriweather', serif;
-  font-size: 2vw;
+  font-size: 4vw;
   padding: 2%;
   background-color: #ddd;
-  width: 50%;
+  width: 80%;
   position: fixed;
   top: 25%;
-  left: 23%;
+  left: 10%;
 }
 
 .AboutText {
@@ -95,7 +97,7 @@
   top: 0%;
 }
 
-.Close:hover {
+.Close:active {
   transition: 1s;
   transform: rotate(225deg);
 }
@@ -113,7 +115,7 @@
 }
 
 /* Add a hover effect if you want */
-.fa:hover {
+.fa:active {
   transition: 0.5s;
   opacity: 0.2;
 }

@@ -7,7 +7,7 @@
     width:7%;
   }
 
-  .Backwards img:active{
+  .Backwards img:hover{
     transition: 0.5s;
     opacity: 0.3;
   }
@@ -21,7 +21,7 @@
     width:7%;
   }
 
-  .Forwards img:active{
+  .Forwards img:hover{
     transition: 0.5s;
     opacity: 0.3;
   }
@@ -32,10 +32,10 @@
   position: fixed;
   top: 50%;
   opacity: 1.0;
-  width:7%;
+  width:10%;
 }
 
-.Backwards img:hover{
+.Backwards img:active{
   transition: 0.5s;
   opacity: 0.3;
 }
@@ -46,10 +46,10 @@
   top: 50%;
   right: 5%;
   opacity: 1.0;
-  width:7%;
+  width:10%;
 }
 
-.Forwards img:hover{
+.Forwards img:active{
   transition: 0.5s;
   opacity: 0.3;
 }
