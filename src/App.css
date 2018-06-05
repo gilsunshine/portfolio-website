@@ -7,7 +7,7 @@
     width:10%;
   }
 
-  .Backwards img:hover{
+  .Backwards img:active{
     transition: 0.5s;
     opacity: 0.3;
   }
@@ -21,7 +21,7 @@
     width:10%;
   }
 
-  .Forwards img:hover{
+  .Forwards img:active{
     transition: 0.5s;
     opacity: 0.3;
   }
