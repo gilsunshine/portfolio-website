@@ -5,7 +5,7 @@ class About extends Component {
   render() {
     return (
       <div className="About">
-        <img  src={require(`./files/images/plus-active.png`)} className="Close" onClick={this.props.toggleAbout} />
+        <img  src={require(`./files/images/plus-active.png`)} className="Close" onClick={this.props.toggleAbout} onTap={this.props.toggleAbout} />
         <div className="AboutText">
           <p>Gil Sunshine is an artist, designer and software developer currently working towards an MArch at MIT.</p>
         </div>
