@@ -8,7 +8,7 @@
   }
 
   .Backwards img:active{
-    transition: 0.5s;
+    transition: 1s;
     opacity: 0.3;
   }
 
@@ -22,7 +22,7 @@
   }
 
   .Forwards img:active{
-    transition: 0.5s;
+    transition: 1s;
     opacity: 0.3;
   }
 }

@@ -102,19 +102,13 @@
     left: 80%
   }
 
-  .HeaderAbout:hover {
-      text-decoration: line-through;
-  }
-
-  .HeaderItem:hover {
-      text-decoration: line-through;
-  }
-
   .HeaderAbout:active {
+    transition: 1s;
       text-decoration: line-through;
   }
 
   .HeaderItem:active {
+    transition: 1s;
       text-decoration: line-through;
   }
 
@@ -128,12 +122,8 @@
     top: 1%;
   }
 
-  .MyName:hover {
-      color: blue;
-      text-decoration: line-through;
-  }
-
   .MyName:active {
+    transition: 1s;
       color: blue;
       text-decoration: line-through;
   }
