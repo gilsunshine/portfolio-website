@@ -1,10 +1,10 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 767px) {
   .Backwards img{
     transition: 0.2s;
     position: fixed;
     top: 50%;
     opacity: 1.0;
-    width:7%;
+    width:10%;
   }
 
   .Backwards img:hover{
@@ -18,7 +18,7 @@
     top: 50%;
     right: 5%;
     opacity: 1.0;
-    width:7%;
+    width:10%;
   }
 
   .Forwards img:hover{
@@ -27,29 +27,32 @@
   }
 }
 
-.Backwards img{
-  transition: 0.2s;
-  position: fixed;
-  top: 50%;
-  opacity: 1.0;
-  width:10%;
-}
+@media only screen and (min-width: 768px) {
 
-.Backwards img:active{
-  transition: 0.5s;
-  opacity: 0.3;
-}
+  .Backwards img{
+    transition: 0.2s;
+    position: fixed;
+    top: 50%;
+    opacity: 1.0;
+    width:7%;
+  }
 
-.Forwards img{
-  transition: 0.2s;
-  position: fixed;
-  top: 50%;
-  right: 5%;
-  opacity: 1.0;
-  width:10%;
-}
+  .Backwards img:active{
+    transition: 0.5s;
+    opacity: 0.3;
+  }
 
-.Forwards img:active{
-  transition: 0.5s;
-  opacity: 0.3;
+  .Forwards img{
+    transition: 0.2s;
+    position: fixed;
+    top: 50%;
+    right: 5%;
+    opacity: 1.0;
+    width:7%;
+  }
+
+  .Forwards img:active{
+    transition: 0.5s;
+    opacity: 0.3;
+  }
 }

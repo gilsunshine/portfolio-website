@@ -1,43 +1,89 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
-.Project {
-  transition: 0.2s;
-  opacity: 0.2;
-  margin: 2%;
+@media only screen and (min-width: 767px) {
+  .Project {
+    transition: 0.2s;
+    opacity: 0.2;
+    margin: 2%;
+  }
+
+  .ActiveProject {
+    transition: 0.75s;
+    opacity: 1;
+    margin: 2%;
+  }
+
+  .ProjectContainer {
+    text-align: center;
+  }
+
+  .ProjectTitle {
+    font-style: oblique;
+    font-size: 1.4vw;
+  }
+
+  .ProjectAbout {
+    font-size: 1.4vw;
+  }
+
+  .ProjectDescription {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 27.5%;
+    margin-right: 22.5%;
+    font-family: 'Merriweather', serif;
+    font-size: 1vw;
+  }
+
+  .Slideshow {
+    margin-left: 27.5%;
+    margin-right: 22.5%;
+  }
+
+  .Slide {
+    width: 100%;
+  }
 }
 
-.ActiveProject {
-  transition: 0.75s;
-  opacity: 1;
-  margin: 2%;
-}
+@media only screen and (max-width: 768px) {
+  .Project {
+    transition: 0.2s;
+    opacity: 0.2;
+  }
 
-.ProjectContainer {
-  text-align: center;
-}
+  .ActiveProject {
+    transition: 0.75s;
+    opacity: 1;
+  }
 
-.ProjectTitle {
-  font-style: oblique;
-  font-size: 1.4vw;
-}
+  .ProjectContainer {
+    text-align: center;
+  }
 
-.ProjectAbout {
-  font-size: 1.4vw;
-}
+  .ProjectTitle {
+    font-style: oblique;
+    font-size: 4vw;
+  }
 
-.ProjectDescription {
-  text-align: left;
-  margin-left: 25%;
-  margin-right: 25%;
-  font-family: 'Merriweather', serif;
-  font-size: 1vw;
-}
+  .ProjectAbout {
+    font-size: 4vw;
+  }
 
-.Slideshow {
-  margin-left: 25%;
-  margin-right: 25%;
-}
+  .ProjectDescription {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 22.5%;
+    margin-right: 17.5%;
+    font-family: 'Merriweather', serif;
+    font-size: 3vw;
+  }
 
-.Slide {
-  width: 100%;
+  .Slideshow {
+    margin-left: 12.5%;
+    margin-right: 7.5%;
+  }
+
+  .Slide {
+    width: 100%;
+  }
 }

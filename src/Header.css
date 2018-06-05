@@ -1,55 +1,140 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
-.Header {
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  z-index: 1;
-  font-family: 'Merriweather', serif;
-  width: 90%;
-  padding-top: 5%;
-}
+@media only screen and (min-width: 768px) {
+  .Header {
+    display: inline;
+    position: fixed;
+    z-index: 1;
+    font-family: 'Merriweather', serif;
+    width: 86%;
+    top: 7%;
+  }
 
-.HeaderItem {
-    top: 10%;
-    padding-right: 30%;
+  .HeaderItem {
+    display: inline;
+    position: fixed;
+    z-index: 1;
+    font-family: 'Merriweather', serif;
+    top: 7%;
+    left: 78%;
     display: inline;
     font-size: 2vw;
+  }
+
+  .HeaderAbout {
+    display: inline;
+    position: fixed;
+    z-index: 1;
+    font-family: 'Merriweather', serif;
+    top: 7%;
+    display: inline;
+    font-size: 2vw;
+    left: 90%
+  }
+
+  .HeaderAbout:hover {
+      text-decoration: line-through;
+  }
+
+  .HeaderItem:hover {
+      text-decoration: line-through;
+  }
+
+  .HeaderAbout:active {
+      text-decoration: line-through;
+  }
+
+  .HeaderItem:active {
+      text-decoration: line-through;
+  }
+
+  .MyName {
+    display: inline;
+    font-size: 2vw;
+    display: inline;
+    position: fixed;
+    z-index: 1;
+    font-family: 'Merriweather', serif;
+    width: 86%;
+    top: 7%;
+  }
+
+  .MyName:hover {
+      color: blue;
+      text-decoration: line-through;
+  }
+
+  .MyName:active {
+      color: blue;
+      text-decoration: line-through;
+  }
 }
 
-.HeaderAbout {
-  top: 10%;
-  display: inline;
-  font-size: 2vw;
-}
+@media only screen and (max-width: 767px) {
+  .Header {
+    display: inline;
+    position: fixed;
+    z-index: 1;
+    font-family: 'Merriweather', serif;
+    width: 86%;
+    top: 7%;
+  }
 
-.HeaderAbout:hover {
-    text-decoration: line-through;
-}
+  .HeaderItem {
+    display: inline;
+    position: fixed;
+    z-index: 1;
+    font-family: 'Merriweather', serif;
+    top: 1%;
+    left: 55%;
+    display: inline;
+    font-size: 5vw;
+  }
 
-.HeaderItem:hover {
-    text-decoration: line-through;
-}
+  .HeaderAbout {
+    display: inline;
+    position: fixed;
+    z-index: 1;
+    font-family: 'Merriweather', serif;
+    top: 1%;
+    display: inline;
+    font-size: 5vw;
+    left: 80%
+  }
 
-.HeaderAbout:active {
-    text-decoration: line-through;
-}
+  .HeaderAbout:hover {
+      text-decoration: line-through;
+  }
 
-.HeaderItem:active {
-    text-decoration: line-through;
-}
+  .HeaderItem:hover {
+      text-decoration: line-through;
+  }
 
-.MyName {
-  display: inline;
-  font-size: 2vw;
-}
+  .HeaderAbout:active {
+      text-decoration: line-through;
+  }
 
-.MyName:hover {
-    color: blue;
-    text-decoration: line-through;
-}
+  .HeaderItem:active {
+      text-decoration: line-through;
+  }
 
-.MyName:active {
-    color: blue;
-    text-decoration: line-through;
+  .MyName {
+    display: inline;
+    font-size: 5vw;
+    display: inline;
+    position: fixed;
+    z-index: 1;
+    font-family: 'Merriweather', serif;
+    top: 1%;
+  }
+
+  .MyName:hover {
+      color: blue;
+      text-decoration: line-through;
+  }
+
+  .MyName:active {
+      color: blue;
+      text-decoration: line-through;
+  }
 }

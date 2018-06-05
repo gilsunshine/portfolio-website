@@ -4,7 +4,7 @@ import './Header.css';
 class Header extends Component {
   render() {
     return (
-      <div className="Header">
+      <div>
         <div>
           <p className="MyName" onClick={this.props.turnOffWork}>Gil Sunshine</p>
         </div>
