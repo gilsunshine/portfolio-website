@@ -67,7 +67,7 @@ class App extends Component {
   backwardHandler = () => {
     if (!this.state.hardWork && !this.state.softWork && !this.state.allWork){
       if (this.state.backgroundColor === "yellow"){
-        document.body.style.background = "rgba(0,0,0,0.0)";
+        document.body.style.background = "white";
         this.setState({backgroundColor: "white"})
       } else {
         document.body.style.background = "red";
@@ -89,7 +89,7 @@ class App extends Component {
   forwardHandler = () => {
     if (!this.state.hardWork && !this.state.softWork && !this.state.allWork){
       if (this.state.backgroundColor === "red"){
-        document.body.style.background = "rgba(0,0,0,0.0)";
+        document.body.style.background = "white";
         this.setState({backgroundColor: "white"})
       } else {
         document.body.style.background = "yellow";
