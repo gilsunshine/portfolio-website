@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
-
 @media only screen and (min-width: 768px) {
 
   .About {
@@ -37,7 +36,6 @@
   /* Style all font awesome icons */
   .fa {
       transition: 0.5s;
-      padding-left: 5%;
       padding-bottom: 5%;
       padding-top: 2%;
       font-size: 100%;
@@ -56,18 +54,24 @@
 
   /* email */
   .fa-envelope {
+    padding-left: 5%;
+    padding-right: 2.5%;
       background: #ddd;
       color: black;
   }
 
   /* Facebook */
   .fa-instagram {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
       background: #ddd;
       color: black;
   }
 
   /* Twitter */
   .fa-linkedin {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
       background: #ddd;
       color: black;
   }

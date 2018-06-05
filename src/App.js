@@ -16,6 +16,7 @@ class App extends Component {
       allWork: false,
       activeProject: 0,
       s27Slide: 0,
+      gestureDrawSlide: 0,
       nordstromss16Slide: 0,
       currentHardWork: 0,
       backgroundColor: "white",
@@ -81,8 +82,6 @@ class App extends Component {
       }
     }
   }
-
-
 
   forwardHandler = () => {
     if (!this.state.hardWork && !this.state.softWork && !this.state.allWork){
