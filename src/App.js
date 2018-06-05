@@ -110,7 +110,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App" style={{'backgroundColor': this.state.backgroundColor}}>
+      <div className="App">
         <Header toggleAbout={this.toggleAbout} toggleHardWork={this.toggleHardWork} toggleSoftWork={this.toggleSoftWork} toggleAllWork={this.toggleAllWork} turnOffWork={this.turnOffWork}/>
 
         { this.state.hardWork ? <HardWork activateProject={this.activateProject} currentHardWork={this.state.currentHardWork} activeProject={this.state.activeProject} s27Slide={this.state.s27Slide} nordstromss16Slide={this.state.nordstromss16Slide}/> : null }
