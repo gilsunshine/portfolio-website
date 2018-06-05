@@ -29,8 +29,9 @@
   }
 
   .Close:hover {
-    transition: 1s;
-    transform: rotate(225deg);
+    transition: 0.5s;
+    opacity: 0.3;
+    /* transform: rotate(225deg); */
   }
 
   /* Style all font awesome icons */
@@ -100,8 +101,8 @@
   }
 
   .Close:active {
-    transition: 1s;
-    transform: rotate(225deg);
+    transition: 0.5s;
+    opacity: 0.3;
   }
 
   /* Style all font awesome icons */

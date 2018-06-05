@@ -7,7 +7,7 @@
     z-index: 1;
     font-family: 'Merriweather', serif;
     width: 86%;
-    top: 7%;
+    top: 3%;
   }
 
   .HeaderItem {
@@ -15,7 +15,7 @@
     position: fixed;
     z-index: 1;
     font-family: 'Merriweather', serif;
-    top: 7%;
+    top: 3%;
     left: 78%;
     display: inline;
     font-size: 2vw;
@@ -26,7 +26,7 @@
     position: fixed;
     z-index: 1;
     font-family: 'Merriweather', serif;
-    top: 7%;
+    top: 3%;
     display: inline;
     font-size: 2vw;
     left: 90%
@@ -56,7 +56,7 @@
     z-index: 1;
     font-family: 'Merriweather', serif;
     width: 86%;
-    top: 7%;
+    top: 3%;
   }
 
   .MyName:hover {
