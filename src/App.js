@@ -68,10 +68,10 @@ class App extends Component {
     if (!this.state.hardWork && !this.state.softWork && !this.state.allWork){
       if (this.state.backgroundColor === "yellow"){
         document.body.style.background = "white";
-        this.setState({backgroundColor: "white"})
+        this.setState({backgroundColor: "white"}, ()=>{ this.forceUpdate() })
       } else {
         document.body.style.background = "red";
-        this.setState({backgroundColor: "red"})
+        this.setState({backgroundColor: "red"}, ()=>{ this.forceUpdate() })
 
       }
     }
@@ -90,10 +90,10 @@ class App extends Component {
     if (!this.state.hardWork && !this.state.softWork && !this.state.allWork){
       if (this.state.backgroundColor === "red"){
         document.body.style.background = "white";
-        this.setState({backgroundColor: "white"})
+        this.setState({backgroundColor: "white"}, ()=>{ this.forceUpdate() })
       } else {
         document.body.style.background = "yellow";
-        this.setState({backgroundColor: "yellow"})
+        this.setState({backgroundColor: "yellow"}, ()=>{ this.forceUpdate() })
 
       }
     }
