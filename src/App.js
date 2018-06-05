@@ -19,8 +19,6 @@ class App extends Component {
       nordstromss16Slide: 0,
       currentHardWork: 0,
       backgroundColor: "white",
-      blue: 0,
-      red: 0,
     }
   }
 
@@ -68,10 +66,10 @@ class App extends Component {
     if (!this.state.hardWork && !this.state.softWork && !this.state.allWork){
       if (this.state.backgroundColor === "yellow"){
         document.body.style.background = "white";
-        this.setState({backgroundColor: "white"}, ()=>{ this.forceUpdate() })
+        this.setState({backgroundColor: "white"})
       } else {
         document.body.style.background = "red";
-        this.setState({backgroundColor: "red"}, ()=>{ this.forceUpdate() })
+        this.setState({backgroundColor: "red"})
 
       }
     }
@@ -90,10 +88,10 @@ class App extends Component {
     if (!this.state.hardWork && !this.state.softWork && !this.state.allWork){
       if (this.state.backgroundColor === "red"){
         document.body.style.background = "white";
-        this.setState({backgroundColor: "white"}, ()=>{ this.forceUpdate() })
+        this.setState({backgroundColor: "white"})
       } else {
         document.body.style.background = "yellow";
-        this.setState({backgroundColor: "yellow"}, ()=>{ this.forceUpdate() })
+        this.setState({backgroundColor: "yellow"})
 
       }
     }
