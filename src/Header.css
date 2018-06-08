@@ -33,23 +33,19 @@
   }
 
   .HeaderAbout:hover {
-      /* text-decoration: line-through; */
       background-color: orange;
   }
 
   .HeaderItem:hover {
-      /* text-decoration: line-through; */
       background-color: orange;
   }
 
   .HeaderAbout:active {
-      /* text-decoration: line-through; */
       background-color: orange;
       color: OrangeRed;
   }
 
   .HeaderItem:active {
-      /* text-decoration: line-through; */
       background-color: orange;
       color: OrangeRed;
   }

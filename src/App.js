@@ -19,8 +19,11 @@ class App extends Component {
       gestureDrawSlide: 0,
       nordstromss16Slide: 0,
       greenwich125Slide: 0,
+      slipChairSlide: 0,
+      dripLightSlide: 0,
+      thinDimensionSlide: 0,
       currentHardWork: 0,
-      backgroundColor: "white",
+      backgroundColor: "rgba(0,0,0,0.1)",
     }
   }
 
@@ -67,8 +70,8 @@ class App extends Component {
   backwardHandler = () => {
     if (!this.state.hardWork && !this.state.softWork && !this.state.allWork){
       if (this.state.backgroundColor === "yellow"){
-        document.body.style.background = "white";
-        this.setState({backgroundColor: "white"})
+        document.body.style.background = "rgba(0,0,0,0.1)";
+        this.setState({backgroundColor: "rgba(0,0,0,0.1)"})
       } else {
         document.body.style.background = "red";
         this.setState({backgroundColor: "red"})
@@ -82,6 +85,12 @@ class App extends Component {
         this.setState({nordstromss16Slide: this.state.nordstromss16Slide - 1})
       } else if (this.state.activeProject === 3 && this.state.greenwich125Slide > 0){
         this.setState({greenwich125Slide: this.state.greenwich125Slide - 1})
+      } else if (this.state.activeProject === 4 && this.state.slipChairSlide > 0){
+        this.setState({slipChairSlide: this.state.slipChairSlide - 1})
+      } else if (this.state.activeProject === 5 && this.state.dripLightSlide > 0){
+        this.setState({dripLightSlide: this.state.dripLightSlide - 1})
+      } else if (this.state.activeProject === 6 && this.state.thinDimensionSlide > 0){
+        this.setState({thinDimensionSlide: this.state.thinDimensionSlide - 1})
       }
     }
   }
@@ -89,8 +98,8 @@ class App extends Component {
   forwardHandler = () => {
     if (!this.state.hardWork && !this.state.softWork && !this.state.allWork){
       if (this.state.backgroundColor === "red"){
-        document.body.style.background = "white";
-        this.setState({backgroundColor: "white"})
+        document.body.style.background = "rgba(0,0,0,0.1)";
+        this.setState({backgroundColor: "rgba(0,0,0,0.1)"})
       } else {
         document.body.style.background = "yellow";
         this.setState({backgroundColor: "yellow"})
@@ -102,8 +111,14 @@ class App extends Component {
         this.setState({s27Slide: this.state.s27Slide + 1})
       } else if (this.state.activeProject === 1 && this.state.nordstromss16Slide < 5){
         this.setState({nordstromss16Slide: this.state.nordstromss16Slide + 1})
-      } else if (this.state.activeProject === 3 && this.state.greenwich125Slide < 4){
+      } else if (this.state.activeProject === 3 && this.state.greenwich125Slide < 3){
         this.setState({greenwich125Slide: this.state.greenwich125Slide + 1})
+      } else if (this.state.activeProject === 4 && this.state.slipChairSlide < 4){
+        this.setState({slipChairSlide: this.state.slipChairSlide + 1})
+      } else if (this.state.activeProject === 5 && this.state.dripLightSlide < 2){
+        this.setState({dripLightSlide: this.state.dripLightSlide + 1})
+      } else if (this.state.activeProject === 6 && this.state.thinDimensionSlide < 5){
+        this.setState({thinDimensionSlide: this.state.thinDimensionSlide + 1})
       }
     }
   }
@@ -117,7 +132,7 @@ class App extends Component {
       <div className="App">
         <Header toggleAbout={this.toggleAbout} toggleHardWork={this.toggleHardWork} toggleSoftWork={this.toggleSoftWork} toggleAllWork={this.toggleAllWork} turnOffWork={this.turnOffWork}/>
 
-        { this.state.hardWork ? <HardWork activateProject={this.activateProject} currentHardWork={this.state.currentHardWork} activeProject={this.state.activeProject} s27Slide={this.state.s27Slide} nordstromss16Slide={this.state.nordstromss16Slide} greenwich125Slide={this.state.greenwich125Slide}/> : null }
+        { this.state.hardWork ? <HardWork activateProject={this.activateProject} currentHardWork={this.state.currentHardWork} activeProject={this.state.activeProject} s27Slide={this.state.s27Slide} nordstromss16Slide={this.state.nordstromss16Slide} greenwich125Slide={this.state.greenwich125Slide} slipChairSlide={this.state.slipChairSlide} dripLightSlide={this.state.dripLightSlide} thinDimensionSlide={this.state.thinDimensionSlide}/> : null }
         { this.state.softWork ? <SoftWork /> : null }
         { this.state.allWork ? <AllWork /> : null }
         { this.state.about ? <About toggleAbout={this.toggleAbout} /> : null }

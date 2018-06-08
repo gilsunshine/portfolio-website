@@ -22,7 +22,7 @@ class Greenwich125 extends Component {
           />
         </div>
 
-        <p className="ProjectTitle">125 Greenwich</p>
+        <p className="ProjectTitle">125 Greenwich Model</p>
         {this.state.showAbout ?
           <div className="AboutWrap">
             <p className="ProjectAbout" onClick={this.toggleAbout}>Hide Info</p>
@@ -35,25 +35,21 @@ class Greenwich125 extends Component {
 
         {this.state.showAbout ?
           <p className="ProjectDescription">
-            2017<br />
-            Alaskan Yellow Cedar<br />
-            9’ x 7’x 8’ (L x W x H)<br />
-            For Santiago Calatrava<br />
-            Role: Design and fabrication<br /><br />
-            Sculpture 27 is part of a series of large wood
-            sculptures that draw inspiration from biological
-            forms. Sculpture 27 is one of three similar
-            sculptures that I have worked on for Santiago
-            Calatrava.<br /><br />
-            The sculptures begin as analog sketches and
-            sketch models, which are translated into a digital
-            model using Rhino and Grasshopper. They are
-            constructed through a combination of digital and
-            traditional woodworking techniques.<br /><br />
-            Sculpture 27 has been partially hollowed out and
-            is weighted with lead bricks at the base in order
-            to strategically position the center of gravity for
-            maximum stability.
+            2016<br />
+            Wood, Corian, fiberglass rod and lacquer.<br />
+            For Snarkitecture<br />
+            Role: Concept design, design development, fabrication
+            documentation and fabrication management.<br /><br />
+            Snarkitecture was tasked with designing a model of the 125
+            Greenwich St. development to be used for promotional
+            purposes. The resulting model reimagines the city fabric
+            as an undulating landscape rendered in fiberglass rod. 125
+            Greenwich along with the buildings of the WTC complex
+            were constructed from lacquered wood, tying the new
+            development to the transportation and business hub.<br /><br />
+            The piece was exhibited at Astor Place for NYCxDesign
+            2016 and now resides at the sales office for 125 Greenwich
+            in 1 WTC.
         </p> : null }
       </div>
     );
