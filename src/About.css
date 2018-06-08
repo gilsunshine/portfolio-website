@@ -18,6 +18,16 @@
     padding-right: 5%;
   }
 
+  .DownloadLink {
+    color: black;
+    text-decoration: none;
+  }
+
+  .DownloadLink:hover {
+    background-color: orange;
+    text-decoration: none;
+  }
+
   .Close {
     transition: 0.5s;
     transform: rotate(45deg);
@@ -93,6 +103,16 @@
   .AboutText {
     padding-left: 5%;
     padding-right: 5%;
+  }
+
+  .DownloadLink {
+    color: black;
+    text-decoration: none;
+  }
+
+  .DownloadLink:hover {
+    background-color: orange;
+    text-decoration: none;
   }
 
   .Close {

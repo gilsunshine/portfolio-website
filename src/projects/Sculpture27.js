@@ -23,7 +23,15 @@ class S27 extends Component {
         </div>
 
         <p className="ProjectTitle">Sculpture 27</p>
-        {this.state.showAbout ? <p className="ProjectAbout" onClick={this.toggleAbout}>Hide Info</p> : <p className="ProjectAbout" onClick={this.toggleAbout}>Show Info</p>}
+        {this.state.showAbout ?
+          <div className="AboutWrap">
+            <p className="ProjectAbout" onClick={this.toggleAbout}>Hide Info</p>
+          </div>
+          :
+          <div className="AboutWrap">
+            <p className="ProjectAbout" onClick={this.toggleAbout}>Show Info</p>
+          </div>
+        }
 
         {this.state.showAbout ?
           <p className="ProjectDescription">

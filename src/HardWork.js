@@ -17,6 +17,7 @@ class HardWork extends Component {
           <GestureDraw gestureDrawSlide={this.props.s27Slide} currentHardWork={this.props.currentHardWork} activeProject={this.props.activeProject} activateProject={this.props.activateProject}/>
           <br/>
           <NordstromSS16 nordstromss16Slide={this.props.nordstromss16Slide} currentHardWork={this.props.currentHardWork} activeProject={this.props.activeProject} activateProject={this.props.activateProject}/>
+          <br/>
           <Greenwich125 greenwich125Slide={this.props.greenwich125Slide} currentHardWork={this.props.currentHardWork} activeProject={this.props.activeProject} activateProject={this.props.activateProject}/>
           <br/>
         </div>

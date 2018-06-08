@@ -33,40 +33,46 @@
   }
 
   .HeaderAbout:hover {
-      text-decoration: line-through;
+      /* text-decoration: line-through; */
+      background-color: orange;
   }
 
   .HeaderItem:hover {
-      text-decoration: line-through;
+      /* text-decoration: line-through; */
+      background-color: orange;
   }
 
   .HeaderAbout:active {
-      text-decoration: line-through;
+      /* text-decoration: line-through; */
+      background-color: orange;
+      color: OrangeRed;
   }
 
   .HeaderItem:active {
-      text-decoration: line-through;
+      /* text-decoration: line-through; */
+      background-color: orange;
+      color: OrangeRed;
   }
 
   .MyName {
-    display: inline;
+    display: inline-block;
     font-size: 2vw;
-    display: inline;
     position: fixed;
     z-index: 1;
     font-family: 'Merriweather', serif;
-    width: 86%;
     top: 3%;
   }
 
   .MyName:hover {
-      color: blue;
-      text-decoration: line-through;
+      /* color: blue;
+      text-decoration: line-through; */
+      background-color: DodgerBlue;
   }
 
   .MyName:active {
       color: blue;
-      text-decoration: line-through;
+      background-color: DodgerBlue;
+
   }
 }
 
