@@ -7,7 +7,7 @@ class About extends Component {
       <div className="About">
         <img  src={require(`./files/images/plus-active.png`)} className="Close" onClick={this.props.toggleAbout} />
         <div className="AboutText">
-          <p>Test Gil Sunshine is an artist and designer working at the intersection of art and architecture. He is currently pursuing a Masters of Architecture at MIT.</p>
+          <p>Gil Sunshine is an artist and designer working at the intersection of art and architecture. He is currently pursuing a Masters of Architecture at MIT.</p>
           <a href="GIL_SUNSHINE_RESUME_2018_04_12.pdf" className="DownloadLink" download>Click here to download resume.</a>
         </div>
         <br/>
