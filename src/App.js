@@ -18,6 +18,7 @@ class App extends Component {
       s27Slide: 0,
       gestureDrawSlide: 0,
       nordstromss16Slide: 0,
+      greenwich125Slide: 0,
       currentHardWork: 0,
       backgroundColor: "white",
     }
@@ -79,6 +80,8 @@ class App extends Component {
         this.setState({s27Slide: this.state.s27Slide - 1})
       } else if (this.state.activeProject === 1 && this.state.nordstromss16Slide > 0){
         this.setState({nordstromss16Slide: this.state.nordstromss16Slide - 1})
+      } else if (this.state.activeProject === 3 && this.state.greenwich125Slide > 0){
+        this.setState({greenwich125Slide: this.state.greenwich125Slide - 1})
       }
     }
   }
@@ -99,6 +102,8 @@ class App extends Component {
         this.setState({s27Slide: this.state.s27Slide + 1})
       } else if (this.state.activeProject === 1 && this.state.nordstromss16Slide < 5){
         this.setState({nordstromss16Slide: this.state.nordstromss16Slide + 1})
+      } else if (this.state.activeProject === 3 && this.state.greenwich125Slide < 4){
+        this.setState({greenwich125Slide: this.state.greenwich125Slide + 1})
       }
     }
   }
@@ -112,7 +117,7 @@ class App extends Component {
       <div className="App">
         <Header toggleAbout={this.toggleAbout} toggleHardWork={this.toggleHardWork} toggleSoftWork={this.toggleSoftWork} toggleAllWork={this.toggleAllWork} turnOffWork={this.turnOffWork}/>
 
-        { this.state.hardWork ? <HardWork activateProject={this.activateProject} currentHardWork={this.state.currentHardWork} activeProject={this.state.activeProject} s27Slide={this.state.s27Slide} nordstromss16Slide={this.state.nordstromss16Slide}/> : null }
+        { this.state.hardWork ? <HardWork activateProject={this.activateProject} currentHardWork={this.state.currentHardWork} activeProject={this.state.activeProject} s27Slide={this.state.s27Slide} nordstromss16Slide={this.state.nordstromss16Slide} greenwich125Slide={this.state.greenwich125Slide}/> : null }
         { this.state.softWork ? <SoftWork /> : null }
         { this.state.allWork ? <AllWork /> : null }
         { this.state.about ? <About toggleAbout={this.toggleAbout} /> : null }

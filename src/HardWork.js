@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Sculpture27 from './projects/Sculpture27.js'
 import GestureDraw from './projects/GestureDraw.js'
 import NordstromSS16 from './projects/NordstromSS16.js'
+import Greenwich125 from './projects/Greenwich125.js'
 import './HardWork.css'
 
 class HardWork extends Component {
@@ -16,6 +17,8 @@ class HardWork extends Component {
           <GestureDraw gestureDrawSlide={this.props.s27Slide} currentHardWork={this.props.currentHardWork} activeProject={this.props.activeProject} activateProject={this.props.activateProject}/>
           <br/>
           <NordstromSS16 nordstromss16Slide={this.props.nordstromss16Slide} currentHardWork={this.props.currentHardWork} activeProject={this.props.activeProject} activateProject={this.props.activateProject}/>
+          <Greenwich125 greenwich125Slide={this.props.greenwich125Slide} currentHardWork={this.props.currentHardWork} activeProject={this.props.activeProject} activateProject={this.props.activateProject}/>
+          <br/>
         </div>
       </div>
     );

@@ -14,7 +14,6 @@ class NordstromSS16 extends Component {
   }
 
   render() {
-    console.log(this.props.activeProject + "inside")
     return (
   <div className={this.props.activeProject === 1 ? "ActiveProject" : "Project"}       onMouseEnter={()=>{this.props.activateProject(1)}}>
         <div className="Slideshow">
