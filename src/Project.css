@@ -25,14 +25,17 @@
     padding-left: 4%;
   }
   .ProjectAbout {
-    transition: 0.25s;
     display: inline;
     font-size: 1.4vw;
   }
 
   .ProjectAbout:hover {
-    transition: 0.25s;
     background-color: orange;
+    color: OrangeRed;
+  }
+
+  .ProjectAbout:active {
+    color: DodgerBlue;
   }
 
   .ProjectDescription {

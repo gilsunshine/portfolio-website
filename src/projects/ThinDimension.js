@@ -35,25 +35,21 @@ class ThinDimension extends Component {
 
         {this.state.showAbout ?
           <p className="ProjectDescription">
-            2017<br />
-            Alaskan Yellow Cedar<br />
-            9’ x 7’x 8’ (L x W x H)<br />
-            For Santiago Calatrava<br />
-            Role: Design and fabrication<br /><br />
-            Sculpture 27 is part of a series of large wood
-            sculptures that draw inspiration from biological
-            forms. Sculpture 27 is one of three similar
-            sculptures that I have worked on for Santiago
-            Calatrava.<br /><br />
-            The sculptures begin as analog sketches and
-            sketch models, which are translated into a digital
-            model using Rhino and Grasshopper. They are
-            constructed through a combination of digital and
-            traditional woodworking techniques.<br /><br />
-            Sculpture 27 has been partially hollowed out and
-            is weighted with lead bricks at the base in order
-            to strategically position the center of gravity for
-            maximum stability.
+            2012<br/>
+            Yarn, plaster, paint, monofilament net.<br/>
+            Zilkha Gallery, Wesleyan University<br/><br/>
+            Senior Honors Thesis<br/>
+            Role: Research, design and fabrication.<br/><br/>
+            “Drawing is the trap of Architecture”-Le Corbusier<br/><br/>
+            Thin Dimension is a subversion of the conventions of architectural drawing, in which space and built form are
+            conceived through two dimensional graphic practices. As an alternative, the piece presents a literal projection of
+            drawing into three dimensions. Here, rather than functioning as a figure of representation, line takes on a physical
+            presence. The result is structure that blurs the boundary between the second and third dimensions. From a single
+            perspective, the viewer is confronted with what appears to be a flat form. As one circumnavigates the piece and
+            walks beneath it, however, its volume and three-dimensional form reveal themselves. The piece is composed of
+            approximately 1,300 lines, each 5 feet in length, hanging from a monofilament net. The lines are made from yarn
+            dipped in plaster, hung to dry, and then painted. Different points along the outside of the net were hung from the
+            ceiling with varying degrees of tension, allowing for the undulated field of lines seen in the final form of the piece.
         </p> : null }
       </div>
     );

@@ -33,21 +33,23 @@
   }
 
   .HeaderAbout:hover {
-      background-color: orange;
+    color: OrangeRed;
+    background-color: orange;
   }
 
   .HeaderItem:hover {
+      color: OrangeRed;
       background-color: orange;
   }
 
   .HeaderAbout:active {
       background-color: orange;
-      color: OrangeRed;
+      color: DodgerBlue;
   }
 
   .HeaderItem:active {
       background-color: orange;
-      color: OrangeRed;
+      color: DodgerBlue;
   }
 
   .MyName {
@@ -60,13 +62,13 @@
   }
 
   .MyName:hover {
-      /* color: blue;
-      text-decoration: line-through; */
+      color: blue;
+      /* text-decoration: line-through; */
       background-color: DodgerBlue;
   }
 
   .MyName:active {
-      color: blue;
+      color: red;
       background-color: DodgerBlue;
 
   }

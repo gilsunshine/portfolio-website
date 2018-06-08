@@ -25,7 +25,12 @@
 
   .DownloadLink:hover {
     background-color: orange;
+    color: OrangeRed;
     text-decoration: none;
+  }
+
+  .DownloadLink:active {
+    color: DodgerBlue;
   }
 
   .Close {
