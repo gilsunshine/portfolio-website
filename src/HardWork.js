@@ -16,14 +16,14 @@ class HardWork extends Component {
       <div className="HardWork">
         <div className="ProjectContainer">
           <Sculpture27 s27Slide={this.props.s27Slide} currentHardWork={this.props.currentHardWork} activeProject={this.props.activeProject} activateProject={this.props.activateProject}/>
-          <br/>
+          <br/><br/>
           <GestureDraw gestureDrawSlide={this.props.s27Slide} currentHardWork={this.props.currentHardWork} activeProject={this.props.activeProject} activateProject={this.props.activateProject}/>
-          <br/>
+          <br/><br/>
           <NordstromSS16 nordstromss16Slide={this.props.nordstromss16Slide} currentHardWork={this.props.currentHardWork} activeProject={this.props.activeProject} activateProject={this.props.activateProject}/>
-          <br/>
-          <Greenwich125 greenwich125Slide={this.props.greenwich125Slide} currentHardWork={this.props.currentHardWork} activeProject={this.props.activeProject} activateProject={this.props.activateProject}/><br/>
-          <SlipChair slipChairSlide={this.props.slipChairSlide} currentHardWork={this.props.currentHardWork} activeProject={this.props.activeProject} activateProject={this.props.activateProject}/><br/>
-          <DripLight dripLightSlide={this.props.dripLightSlide} currentHardWork={this.props.currentHardWork} activeProject={this.props.activeProject} activateProject={this.props.activateProject}/><br/>
+          <br/><br/>
+          <Greenwich125 greenwich125Slide={this.props.greenwich125Slide} currentHardWork={this.props.currentHardWork} activeProject={this.props.activeProject} activateProject={this.props.activateProject}/><br/><br/>
+          <SlipChair slipChairSlide={this.props.slipChairSlide} currentHardWork={this.props.currentHardWork} activeProject={this.props.activeProject} activateProject={this.props.activateProject}/><br/><br/>
+          <DripLight dripLightSlide={this.props.dripLightSlide} currentHardWork={this.props.currentHardWork} activeProject={this.props.activeProject} activateProject={this.props.activateProject}/><br/><br/>
           <ThinDimension thinDimensionSlide={this.props.thinDimensionSlide} currentHardWork={this.props.currentHardWork} activeProject={this.props.activeProject} activateProject={this.props.activateProject}/><br/>
           <br/>
           <br/>
