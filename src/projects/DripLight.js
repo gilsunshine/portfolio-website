@@ -23,6 +23,7 @@ class DripLight extends Component {
         </div>
 
         <p className="ProjectTitle">Drip Light</p>
+        <p className="ProjectTitle"> {(this.props.dripLightSlide + 1).toString()} / 3</p>
         {this.state.showAbout ?
           <div className="AboutWrap">
             <p className="ProjectAbout" onClick={this.toggleAbout}>Hide Info</p>

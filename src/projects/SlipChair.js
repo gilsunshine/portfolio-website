@@ -23,6 +23,7 @@ class SlipChair extends Component {
         </div>
 
         <p className="ProjectTitle">Slip Chair</p>
+        <p className="ProjectTitle"> {(this.props.slipChairSlide + 1).toString()} / 5</p>
         {this.state.showAbout ?
           <div className="AboutWrap">
             <p className="ProjectAbout" onClick={this.toggleAbout}>Hide Info</p>

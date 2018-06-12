@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../Project.css'
 
-class S27 extends Component {
+class Blur extends Component {
   constructor(){
     super()
     this.state = {
@@ -18,12 +18,11 @@ class S27 extends Component {
       <div className={this.props.activeProject === 0 ? "ActiveProject" : "Project"} onMouseEnter={()=>{this.props.activateProject(0)}}>
         <div className="Slideshow">
           <img className="shadow" className="Slide"
-          src={require(`../files/images/Sculpture27/${this.props.s27Slide.toString()}.png`)}
+          src={require(`../files/images/Blur/${this.props.blurSlide.toString()}.png`)}
           />
         </div>
 
-        <p className="ProjectTitle">Sculpture 27</p>
-        <p className="ProjectTitle"> {(this.props.s27Slide + 1).toString()} / 5</p>
+        <p className="ProjectTitle">Blur</p>
         {this.state.showAbout ?
           <div className="AboutWrap">
             <p className="ProjectAbout" onClick={this.toggleAbout}>Hide Info</p>
@@ -61,4 +60,4 @@ class S27 extends Component {
   }
 }
 
-export default S27;
+export default Blur;
