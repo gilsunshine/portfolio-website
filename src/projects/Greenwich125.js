@@ -23,7 +23,7 @@ class Greenwich125 extends Component {
         </div>
 
         <p className="ProjectTitle">125 Greenwich Model</p>
-        <p className="ProjectTitle"> {(this.props.greenwich125Slide + 1).toString()} / 4</p>
+        <span className="PictureNumber"> {(this.props.greenwich125Slide + 1).toString()} / 4</span>
         {this.state.showAbout ?
           <div className="AboutWrap">
             <p className="ProjectAbout" onClick={this.toggleAbout}>Hide Info</p>

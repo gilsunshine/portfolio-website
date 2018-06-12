@@ -23,7 +23,7 @@ class NordstromSS16 extends Component {
         </div>
 
         <p className="ProjectTitle">Nordstrom SS16 </p>
-        <p className="ProjectTitle"> {(this.props.nordstromss16Slide + 1).toString()} / 6</p>
+        <span className="PictureNumber"> {(this.props.nordstromss16Slide + 1).toString()} / 6</span>
         {this.state.showAbout ?
             <div className="AboutWrap">
               <p className="ProjectAbout" onClick={this.toggleAbout}>Hide Info</p>

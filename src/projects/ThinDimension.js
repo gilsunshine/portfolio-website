@@ -23,7 +23,7 @@ class ThinDimension extends Component {
         </div>
 
         <p className="ProjectTitle">Thin Dimension</p>
-        <p className="ProjectTitle"> {(this.props.thinDimensionSlide + 1).toString()} / 6</p>
+        <span className="PictureNumber"> {(this.props.thinDimensionSlide + 1).toString()} / 6</span>
         {this.state.showAbout ?
           <div className="AboutWrap">
             <p className="ProjectAbout" onClick={this.toggleAbout}>Hide Info</p>

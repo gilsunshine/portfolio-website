@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
 @media only screen and (min-width: 767px) {
   .Project {
@@ -17,7 +17,12 @@
 
   .ProjectTitle {
     padding-left: 4%;
+    font-size: 1.8vw;
     font-style: oblique;
+  }
+
+  .PictureNumber {
+    padding-left: 4%;
     font-size: 1.4vw;
   }
 
@@ -75,6 +80,10 @@
 
   .ProjectTitle {
     font-style: oblique;
+    font-size: 5vw;
+  }
+
+  .PictureNumber {
     font-size: 4vw;
   }
 
