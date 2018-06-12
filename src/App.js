@@ -4,6 +4,7 @@ import HardWork from './HardWork.js'
 import SoftWork from './SoftWork.js'
 import AllWork from './AllWork.js'
 import Header from './Header.js'
+import Footer from './Footer.js'
 import './App.css';
 
 class App extends Component {
@@ -147,7 +148,6 @@ class App extends Component {
             src={require("./files/images/plus-active.png")}
           />
         </div>
-
       </div>
     );
   }

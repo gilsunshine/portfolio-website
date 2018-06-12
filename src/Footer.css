@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+.Footer {
+  display: inline-block;
+  position: fixed;
+  text-align: right;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  top: 90%;
+  left: 75%;
+  font-family: 'Merriweather', serif;
+  font-size: 75%;
+  color: #999;
+}
