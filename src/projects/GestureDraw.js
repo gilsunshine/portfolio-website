@@ -38,11 +38,11 @@ class GestureDraw extends Component {
           <p className="ProjectDescription">
             2018<br />
             Augmented Reality Drawing App<br />
-            Role: Concept, Design and Programming<br /><br />
+            Role: Concept, Design and Programming.<br /><br />
             Gesture Draw is an augmented reality app that allows
-            users to draw three dimensionally by extruding shapes
+            users to draw three dimensionally using their smartphone by extruding shapes
             through space.<br /><br />
-            The app was created using React Native on the Expo platform. Three.js was used to create
+            I built the app in a week and a half using React Native on the Expo platform. Three.js was used to create the 3D geometries.
         </p> : null }
       </div>
     );
