@@ -43,7 +43,7 @@ class SlipChair extends Component {
             production management.<br/><br/>
             A chair that appears to be sinking into the ground, with an unlevel seat,
             is corrected by a marble volume. Rotated on two axis, the chair appears
-            tippy but is stable by the weight of the marble.
+            tippy but is made stable by the weight of the marble.
         </p> : null }
       </div>
     );
