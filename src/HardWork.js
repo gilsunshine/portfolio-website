@@ -6,6 +6,7 @@ import Greenwich125 from './projects/Greenwich125.js'
 import SlipChair from './projects/SlipChair.js'
 import DripLight from './projects/DripLight.js'
 import ThinDimension from './projects/ThinDimension.js'
+import Paintings from './projects/Paintings.js'
 import './HardWork.css'
 
 class HardWork extends Component {
