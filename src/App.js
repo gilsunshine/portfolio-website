@@ -23,6 +23,7 @@ class App extends Component {
       slipChairSlide: 0,
       dripLightSlide: 0,
       thinDimensionSlide: 0,
+      paintingsSlide: 0,
       currentHardWork: 0,
       backgroundColor: "rgba(0,0,0,0.1)",
     }
@@ -92,6 +93,8 @@ class App extends Component {
         this.setState({dripLightSlide: this.state.dripLightSlide - 1})
       } else if (this.state.activeProject === 6 && this.state.thinDimensionSlide > 0){
         this.setState({thinDimensionSlide: this.state.thinDimensionSlide - 1})
+      } else if (this.state.activeProject === 7 && this.state.paintingsSlide > 0){
+        this.setState({paintingsSlide: this.state.paintingsSlide - 1})
       }
     }
   }
@@ -120,6 +123,8 @@ class App extends Component {
         this.setState({dripLightSlide: this.state.dripLightSlide + 1})
       } else if (this.state.activeProject === 6 && this.state.thinDimensionSlide < 5){
         this.setState({thinDimensionSlide: this.state.thinDimensionSlide + 1})
+      } else if (this.state.activeProject === 7 && this.state.paintingsSlide < 5){
+        this.setState({paintingsSlide: this.state.paintingsSlide + 1})
       }
     }
   }
