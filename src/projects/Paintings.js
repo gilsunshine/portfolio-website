@@ -18,7 +18,7 @@ class Paintings extends Component {
       <div className={this.props.activeProject === 0 ? "ActiveProject" : "Project"} onMouseEnter={()=>{this.props.activateProject(0)}}>
         <div className="Slideshow">
           <img className="shadow" className="Slide"
-          src={require(`../files/images/Paintings/${this.props.s27Slide.toString()}.png`)}
+          src={require(`../files/images/Paintings/${this.props.paintingsSlide.toString()}.png`)}
           />
         </div>
 
