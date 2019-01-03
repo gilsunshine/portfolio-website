@@ -15,7 +15,7 @@ class Paintings extends Component {
 
   render() {
     return (
-      <div className={this.props.activeProject === 6 ? "ActiveProject" : "Project"} onMouseEnter={()=>{this.props.activateProject(6)}}>
+      <div className={this.props.activeProject === 7 ? "ActiveProject" : "Project"} onMouseEnter={()=>{this.props.activateProject(7)}}>
         <div className="Slideshow">
           <img className="shadow" className="Slide"
           src={require(`../files/images/Paintings/${this.props.paintingsSlide.toString()}.png`)}
@@ -42,7 +42,7 @@ class Paintings extends Component {
             This series of paintings are made using stretchers to paint abstract shapes
             onto canvas and plastic sheeting. The canvas or plastic sheeting is then
             stretched onto the stretchers. The image of the stretcher is in effect burned
-            onto the canvas or plastic sheeting.
+            onto the canvas or plastic sheeting.<br /><br />
             These paintings reveal the underlying structure inherent to all paintings.
             They remind the viewer that while the painting may depict 2D imagery,
             it is a 3D dimensional object with mass and depth. In this sense, these
