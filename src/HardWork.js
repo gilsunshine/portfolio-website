@@ -26,6 +26,7 @@ class HardWork extends Component {
           <DripLight dripLightSlide={this.props.dripLightSlide} currentHardWork={this.props.currentHardWork} activeProject={this.props.activeProject} activateProject={this.props.activateProject}/><br/><br/>
           <ThinDimension thinDimensionSlide={this.props.thinDimensionSlide} currentHardWork={this.props.currentHardWork} activeProject={this.props.activeProject} activateProject={this.props.activateProject}/><br/>
           <br/>
+            <Paintings paintingsSlide={this.props.paintingsSlide} currentHardWork={this.props.currentHardWork} activeProject={this.props.activeProject} activateProject={this.props.activateProject}/><br/><br/>
           <br/>
         </div>
       </div>
