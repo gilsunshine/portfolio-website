@@ -135,25 +135,25 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <Header toggleAbout={this.toggleAbout} toggleHardWork={this.toggleHardWork} toggleSoftWork={this.toggleSoftWork} toggleAllWork={this.toggleAllWork} turnOffWork={this.turnOffWork}/>
-
-        { this.state.hardWork ? <HardWork activateProject={this.activateProject} currentHardWork={this.state.currentHardWork} activeProject={this.state.activeProject} s27Slide={this.state.s27Slide} nordstromss16Slide={this.state.nordstromss16Slide} greenwich125Slide={this.state.greenwich125Slide} slipChairSlide={this.state.slipChairSlide} dripLightSlide={this.state.dripLightSlide} thinDimensionSlide={this.state.thinDimensionSlide} paintingsSlide={this.state.paintingsSlide}/> : null }
-        { this.state.softWork ? <SoftWork /> : null }
-        { this.state.allWork ? <AllWork /> : null }
-        { this.state.about ? <About toggleAbout={this.toggleAbout} /> : null }
-
-        <div onClick={this.backwardHandler} className="Backwards">
-          <img
-            src={require("./files/images/minus-active.png")}
-          />
-        </div>
-        <div onClick={this.forwardHandler} className="Forwards">
-          <img
-            src={require("./files/images/plus-active.png")}
-          />
-        </div>
-      </div>
+      // <div className="App">
+      //   <Header toggleAbout={this.toggleAbout} toggleHardWork={this.toggleHardWork} toggleSoftWork={this.toggleSoftWork} toggleAllWork={this.toggleAllWork} turnOffWork={this.turnOffWork}/>
+      //
+      //   { this.state.hardWork ? <HardWork activateProject={this.activateProject} currentHardWork={this.state.currentHardWork} activeProject={this.state.activeProject} s27Slide={this.state.s27Slide} nordstromss16Slide={this.state.nordstromss16Slide} greenwich125Slide={this.state.greenwich125Slide} slipChairSlide={this.state.slipChairSlide} dripLightSlide={this.state.dripLightSlide} thinDimensionSlide={this.state.thinDimensionSlide} paintingsSlide={this.state.paintingsSlide}/> : null }
+      //   { this.state.softWork ? <SoftWork /> : null }
+      //   { this.state.allWork ? <AllWork /> : null }
+      //   { this.state.about ? <About toggleAbout={this.toggleAbout} /> : null }
+      //
+      //   <div onClick={this.backwardHandler} className="Backwards">
+      //     <img
+      //       src={require("./files/images/minus-active.png")}
+      //     />
+      //   </div>
+      //   <div onClick={this.forwardHandler} className="Forwards">
+      //     <img
+      //       src={require("./files/images/plus-active.png")}
+      //     />
+      //   </div>
+      // </div>
     );
   }
 }
