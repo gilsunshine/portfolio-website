@@ -143,16 +143,16 @@ class App extends Component {
         { this.state.allWork ? <AllWork /> : null }
         { this.state.about ? <About toggleAbout={this.toggleAbout} /> : null }
 
-        // <div onClick={this.backwardHandler} className="Backwards">
-        //   <img
-        //     src={require("./files/images/minus-active.png")}
-        //   />
-        // </div>
-        // <div onClick={this.forwardHandler} className="Forwards">
-        //   <img
-        //     src={require("./files/images/plus-active.png")}
-        //   />
-        // </div>
+        <div onClick={this.backwardHandler} className="Backwards">
+          <img
+            // src={require("./files/images/minus-active.png")}
+          />
+        </div>
+        <div onClick={this.forwardHandler} className="Forwards">
+          <img
+            // src={require("./files/images/plus-active.png")}
+          />
+        </div>
         <div>Under renovation...</div>
       </div>
     );
