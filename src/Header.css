@@ -21,6 +21,27 @@
     font-size: 2vw;
   }
 
+  .HardWork {
+    display: inline;
+    position: fixed;
+    z-index: 1;
+    font-family: 'Merriweather', serif;
+    top: 3%;
+    left: 77%;
+    display: inline;
+    font-size: 2vw;
+  }
+  .SoftWork {
+    display: inline;
+    position: fixed;
+    z-index: 1;
+    font-family: 'Merriweather', serif;
+    top: 3%;
+    left: 65%;
+    display: inline;
+    font-size: 2vw;
+  }
+
   .HeaderAbout {
     display: inline;
     position: fixed;
@@ -42,12 +63,32 @@
       background-color: orange;
   }
 
+  .HardWork:hover {
+      color: OrangeRed;
+      background-color: orange;
+  }
+
+  .SoftWork:hover {
+      color: OrangeRed;
+      background-color: orange;
+  }
+
   .HeaderAbout:active {
       background-color: orange;
       color: DodgerBlue;
   }
 
   .HeaderItem:active {
+      background-color: orange;
+      color: DodgerBlue;
+  }
+
+  .HardWork:active {
+      background-color: orange;
+      color: DodgerBlue;
+  }
+
+  .SoftWork:active {
       background-color: orange;
       color: DodgerBlue;
   }
