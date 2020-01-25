@@ -9,7 +9,7 @@ class Header extends Component {
           <p className="MyName" onClick={this.props.turnOffWork}>Gil Sunshine</p>
         </div>
         <div className="HeaderItems">
-          <p className="HeaderItem" onClick={this.props.toggleAllWork}>Projects</p>
+          <p className="HeaderItem" onClick={this.props.toggleHardWork}>Projects</p>
           <p className="HeaderAbout" onClick={this.props.toggleAbout}>About</p>
         </div>
       </div>
