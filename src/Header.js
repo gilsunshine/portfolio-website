@@ -6,7 +6,7 @@ class Header extends Component {
     return (
       <div className="NameWrap">
         <div className="NameWrap">
-          <p className="MyName" onClick={this.props.turnOffWork}>Gil Sunshine</p>
+          <p className="MyName" onClick={this.props.turnOffWork}>Under construction...</p>
         </div>
         <div className="HeaderItems">
           <p className="HeaderAbout" onClick={this.props.toggleAbout}>About</p>
